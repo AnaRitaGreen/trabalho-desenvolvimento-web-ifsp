@@ -1,0 +1,124 @@
+body{
+    background-color: #f2f2f2;
+}
+
+
+.logo{
+    width: 110px;
+}
+
+.title{
+    font-size: 100px;
+}
+
+
+.text{
+    font-size: 25px;
+}
+
+
+.meu-card {
+    border-radius: 10px;
+    max-width: 337px;
+}
+
+
+.card-img-top {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+.inicial .img-top{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.inicial div:nth-child(1) img, .inicial div:nth-child(3) img {
+    transform: translateY(-15%);
+}
+
+.img-cidade{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 250px;
+}
+
+.carousel-image div img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.carousel-image-reserva{
+    width: 100%;
+    height: 340px;
+
+}
+
+.carousel-image-reserva div img{
+    width: 100%;
+    height: 345px;
+    object-fit: cover;
+}
+
+.card-button{
+    color: #FFFFFF;
+    border: #FFFFFF;
+    background-color: #F25D27;
+}
+
+.card-button:hover {
+    color: #FFFFFF;
+    background-color: #F25D27;
+    filter:brightness(130%);
+    transition: filter 0.5s;
+
+}
+
+.banner-hotel{
+    position: relative;
+    margin-top: 20px;
+}
+
+.banner-hotel img{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    
+}
+
+
+.banner-hotel span{
+    position: absolute;
+    bottom: 10px;
+    left: 47%;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.banner-hotel span:hover{
+    background-color: #eaeaea;
+}
+
+
+.footer{
+    background-color: #F25D27;
+
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
