@@ -1,19 +1,37 @@
-body{
+body {
     background-color: #f2f2f2;
 }
 
 
-.logo{
+.logo {
     width: 110px;
 }
 
-.title{
-    font-size: 100px;
+.title {
+    font-size: 48px;
 }
 
+.text {
+    font-size: 16px;
+}
 
-.text{
-    font-size: 25px;
+@media (min-width: 576px) {
+    .title {
+        font-size: 64px;
+    }
+    
+    .text {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    .title {
+        font-size: 81px;
+    }
+    .text {
+        font-size: 22px;
+    }
 }
 
 
@@ -35,12 +53,34 @@ body{
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     width: 100%;
-    height: 300px;
+    height: 248px;
     object-fit: cover;
 }
 
-.inicial div:nth-child(1) img, .inicial div:nth-child(3) img {
-    transform: translateY(-15%);
+.inicial {
+    margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+    .inicial {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 992px) {
+    .inicial .img-top{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .inicial div:nth-child(2) img, .inicial div:nth-child(4) img {
+        transform: translateY(15%);
+    }
 }
 
 .img-cidade{
