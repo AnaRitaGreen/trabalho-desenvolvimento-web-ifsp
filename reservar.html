@@ -21,9 +21,9 @@
     </nav>
 
     <div class="container mt-5 mb-5">
-        <div class="row ">
-            <h1 class="text-center mb-4">Reserva do Quarto Casal Superior</h1>
-            <div class="col-6">
+        <h1 class="text-center mb-4">Reserva do Quarto Casal Superior</h1>
+        <div class="row gy-3">
+            <div class="col-12 col-md-6">
                 <div class="card">
                     <div class="card-header text-center">
                         <h2 class="text-center">Detalhes do hóspede</h2>
@@ -51,16 +51,11 @@
                                 <textarea class="form-control" id="comentarios" rows="3"></textarea>
                             </div>
 
-
-
                             <div class="card cursor-pointer" data-bs-toggle="modal" data-bs-target="#Modal">
-
-                                <span >
-                                    <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d117193.39647236993!2d-44.9202827!3d-23.3775922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9d44bb3c05cb85%3A0x2c9bfb8c668037db!2sDeck%20da%20Villa!5e0!3m2!1spt-BR!2sbr!4v1717715762947!5m2!1spt-BR!2sbr"
-                                        width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy"
-                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                </span>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d117193.39647236993!2d-44.9202827!3d-23.3775922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9d44bb3c05cb85%3A0x2c9bfb8c668037db!2sDeck%20da%20Villa!5e0!3m2!1spt-BR!2sbr!4v1717715762947!5m2!1spt-BR!2sbr"
+                                    style="border:0;" height="270px" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                                 <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel"
                                     aria-hidden="true">
@@ -81,7 +76,7 @@
                                     </div>
                                 </div>
 
-                                <div class="card-body ">
+                                <div class="card-body">
                                     <p class="card-text">Avenida Beira Mar 151, Ubatuba, SP, 11680-000</p>
                                     <a href="#" class="">Ver mapa</a>
                                 </div>
@@ -90,13 +85,13 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <div class="card">
                     <div class="card-header text-center">
                         <h2 class="text-center">Detalhes do quarto</h2>
                     </div>
                     <div class="card-body">
-                        <div id="" class="carousel slide">
+                        <div id="carouselReserva" class="carousel slide">
                             <div class="carousel-inner carousel-image-reserva">
                                 <div class="carousel-item active">
                                     <img src="https://images.trvl-media.com/lodging/37000000/36030000/36022100/36022079/4447094e.jpg?impolicy=resizecrop&ra=fit"
@@ -111,12 +106,12 @@
                                         class="d-block w-100" alt="...">
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselQuarto01"
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselReserva"
                                 data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselQuarto01"
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselReserva"
                                 data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>

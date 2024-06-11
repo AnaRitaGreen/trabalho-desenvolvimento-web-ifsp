@@ -1,10 +1,10 @@
 ## Resposividade
 - [x] pgInicial
-- [ ] PrumHotel01
-- [ ] reservar
+- [x] PrumHotel01
+- [x] reservar
 
 ## Carrossel 
-- [ ] reservar
+- [X] reservar
 
 ## Ajeitar
-- [ ] PrumHotel01
+- [x] PrumHotel01
