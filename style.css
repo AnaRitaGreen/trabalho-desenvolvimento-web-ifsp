@@ -37,7 +37,6 @@ body {
 
 .meu-card {
     border-radius: 10px;
-    max-width: 337px;
 }
 
 
@@ -123,7 +122,6 @@ body {
     background-color: #F25D27;
     filter:brightness(130%);
     transition: filter 0.5s;
-
 }
 
 .banner-hotel{
@@ -132,17 +130,15 @@ body {
 }
 
 .banner-hotel img{
-    width: 50%;
+    width: 100%;
     height: auto;
     object-fit: cover;
-    
 }
-
 
 .banner-hotel span{
     position: absolute;
-    bottom: 10px;
-    left: 47%;
+    bottom: 12px;
+    right: 12px;
     background-color: #FFFFFF;
     border-radius: 8px;
     padding: 5px 10px;
@@ -153,6 +149,35 @@ body {
     background-color: #eaeaea;
 }
 
+#prumirim .info-praia h2 {
+    font-size: 22px;
+}
+
+#prumirim .info-praia p {
+    font-size: 12px;
+}
+
+@media (min-width: 576px) {
+    #prumirim .info-praia h2 {
+        font-size: 25px;
+    }
+    
+    #prumirim .info-praia p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    #prumirim .info-praia h2 {
+        font-size: 28px;
+    }
+    
+    #prumirim .info-praia p {
+        font-size: 18px;
+    }
+}
+
+
 
 .footer{
     background-color: #F25D27;
@@ -162,3 +187,4 @@ body {
 .cursor-pointer {
     cursor: pointer;
 }
+
